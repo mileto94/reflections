@@ -1,0 +1,43 @@
+1. How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+Going trough to particular lines of code helps me to find the bug easer
+because my attention was not distracted by lines that are the same in both
+files. I like viewing differences between two files. It's really helpful.
+
+
+2. How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+I can easily see the development of the code - it's quite easy to check your
+previous business logic and correct the mistakes in the new one.
+
+
+3. What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+I think it's better to create commits manually because otherwise you'll have a bunch
+of unneeded files that probably don't make sense as logic and as syntax. Of course
+there are not only benefits from manually commiting, there are downsides of this too.
+I mean I sometimes work on logically different problems and forget to split them in
+separate commits.
+
+
+4. Why do you think some version control systems, like Git, allow saving multiple files
+in one commit, while others, like Google Docs, treat each file separately?
+I think Git allows you to commit a set of files together because if you write a site
+for example, you create new html, js and css files all the time. And it is useless to
+save new js file without adding it to the html file.
+
+
+How can you use the commands git log and git diff to view the history of files?
+Using git log, I'll see all commits and if I use git diff between two commits I'll see
+what exactly has been changed in the files.
+
+
+How might using version control make you more confident to make changes that could break
+something?
+When I use version control I know that I can do anything I want and in every moment I
+decide I'm making boolshits I can caheckout to the last commit without any sign of my
+previous mistakes.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to try using Git for crazy stuffs :D

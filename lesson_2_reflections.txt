@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git creates a hidden folder named .git which saves the history of my files.
+I do this in order to have a history of my documents.
