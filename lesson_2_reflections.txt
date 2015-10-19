@@ -5,7 +5,39 @@ I do this in order to have a history of my documents.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-Staging area is the place where I store logicallyy conneted files that are changed
+Staging area is the place where I store logically conneted files that are changed
 and that I will want to commit together. Working directory tracks all my files in
 the folder without separating them by logic. Repository keeps old versions of my
 tracked and commited filed from which if I want I could revert back a commit.
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+I use staging area to group only logically connected files that have been changed.
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+When there are two people working in different parts of the code that are logically
+independent, you should create new branches. When you want to test whether a new
+feature is going to work, you should always create and work in new branch.
+
+
+How do the diagrams help you visualize the branch structure?
+It's a lot easier when you learn something new and you have the opportunity to see 
+it really. Creating a diagram shows how and when new branches whre created, every
+commit's parent and how different branches could be merged.
+
+
+What is the result of merging two branches together? Why do we represent it in the
+diagram the way we do?
+After we merge two branches we get all commits from both branches without any efforts.
+It's easier to see branches' parents and it allows you to understand better what merging
+branches means.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+It's good to be able to use Git's automatic merging for small changes because you're not
+taking along with it. Of course there are more complicated cases in which Git can not 
+manage to merge automatically. In these cases the person who merges branches have to 
+read the code and merge them logically.
